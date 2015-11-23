@@ -14,6 +14,8 @@
 		5FD5AA9B1C00EF1900730C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5AA991C00EF1900730C55 /* LaunchScreen.storyboard */; };
 		5FD5AAA31C00FBF700730C55 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5AAA21C00FBF700730C55 /* Minecraft.ttf */; };
 		5FD5AAA51C010C4300730C55 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5AAA41C010C4300730C55 /* Character.swift */; };
+		5FD5AAA71C02330F00730C55 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5AAA61C02330F00730C55 /* Player.swift */; };
+		5FD5AAA91C02332C00730C55 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5AAA81C02332C00730C55 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5FD5AA9C1C00EF1900730C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FD5AAA21C00FBF700730C55 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		5FD5AAA41C010C4300730C55 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5FD5AAA61C02330F00730C55 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5FD5AAA81C02332C00730C55 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5FD5AA991C00EF1900730C55 /* LaunchScreen.storyboard */,
 				5FD5AA9C1C00EF1900730C55 /* Info.plist */,
 				5FD5AAA41C010C4300730C55 /* Character.swift */,
+				5FD5AAA61C02330F00730C55 /* Player.swift */,
+				5FD5AAA81C02332C00730C55 /* Game.swift */,
 			);
 			path = DarkWorldDuel;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD5AAA71C02330F00730C55 /* Player.swift in Sources */,
+				5FD5AAA91C02332C00730C55 /* Game.swift in Sources */,
 				5FD5AAA51C010C4300730C55 /* Character.swift in Sources */,
 				5FD5AA931C00EF1900730C55 /* ViewController.swift in Sources */,
 				5FD5AA911C00EF1900730C55 /* AppDelegate.swift in Sources */,
